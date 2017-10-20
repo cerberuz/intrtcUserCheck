@@ -87,7 +87,7 @@ def check_username(username):
         raise ValueError("The username should contain at least 6 characters")
 
 
-username = str(raw_input("insert a username: ")).lower()
+username = input("insert a username: ").lower()
 result = check_username(username)
 
 print(result)
